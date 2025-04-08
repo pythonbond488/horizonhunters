@@ -1,0 +1,186 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Kanit", serif;
+}
+
+div.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar .logoimage h2 a {
+    font-size: 30px;
+    color: #2e2e2e;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.navbar .logoimage span {
+    color: #c55500;
+}
+
+.menu-bar {
+    display: flex;
+}
+
+.menu-bar .nav-menu a {
+    text-decoration: none;
+    color: #282a2d;
+    text-transform: uppercase;
+    margin: 0px 40px;
+    font-size: 17px;
+}
+
+.menu-bar .nav-menu a:hover,
+.menu-bar .nav-menu a:focus {
+    color: #c55500;
+}
+
+.navbar .profile {
+    display: flex;
+}
+
+.navbar .profile i {
+    font-size: 21px;
+    color: #000000;
+}
+
+.navbar .profile .profile-pic {
+    margin: 16px 10px;
+    border-radius: 50%;
+    background-color: #434141;
+    color: #282a2d;
+    height: 30px;
+    width: 30px;
+}
+
+.navbar .profile .profile-pic img {
+    width: 100%;
+}
+
+.navbar .profile .menu {
+    margin: 20px 20px;
+}
+
+.navbar .profile .menu i:hover,
+.navbar .profile .profile-pic img:hover {
+    cursor: pointer;
+}
+
+#bg-image {
+    background-image: url(./assets/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
+#bg-image .banner h1 {
+    position: relative;
+    top: 21vh;
+    left: 14vw;
+    text-shadow: 0px 2px 20px #535151;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 75%;
+    font-weight: 800;
+    font-family: sans-serif;
+    font-size: 43px;
+    color: #fffafa;
+}
+
+#bg-image .banner p {
+    text-shadow: 0px 2px 20px #535151;
+    font-size: 21px;
+    margin-top: 30vh;
+    color: #ffffff;
+}
+
+#bg-image .banner {
+    background-color: rgb(116 113 113 / 55%);
+    height: 800px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#bg-image .banner .cont {
+    display: flex;
+    justify-content: center;
+   margin: 80px 0px;
+}
+
+#bg-image .banner .cont .container {
+    display: flex;
+    background: #fffafa;
+    border-radius: 4px;
+    height: 68px;
+    width: 73%;
+}
+
+#bg-image .banner .cont .container .form {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+#bg-image .banner .cont .container .form:nth-child(2) {
+    margin-left: 50px;
+}
+
+#bg-image .banner .cont .container .form:first-child {
+    border-right: #65666781 1px solid;
+}
+
+#bg-image .banner .cont .container .form input {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    width: 22vw;
+    margin-left: 15px;
+
+}
+
+#bg-image .banner .cont .container .form i {
+    font-size: 21px;
+    color: #3f3e3e;
+    margin: 3px 30px;
+
+}
+
+#bg-image .banner .cont .container .form h3 {
+    font-size: 23px;
+    color: #3f3e3e;
+
+}
+
+#bg-image .banner .cont .container .form input::placeholder {
+    color: #282a2d;
+    opacity: 0.5;
+}
+
+#bg-image .banner .cont .btn {
+    height: 68px;
+    background-color: #c96010;
+    color: white;
+    text-transform: capitalize;
+    width: 10vw;
+    border: none;
+    margin: 0px 15px;
+    font-size: 17px;
+    border-radius: 4px;
+}
+#bg-image .banner .cont .btn:hover{
+    cursor: pointer;
+    background-color: #c55500;
+}
+#bg-image .banner .cont .btn i{
+    margin: 0px 5px;
+    font-size: 14px;
+}
